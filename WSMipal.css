@@ -543,12 +543,8 @@ label {
 
 /* Message */
 
-.footer-message .form-row {
-  width: 100%;
-}
-
 .footer-message .row {
-  display: grid;
+  display: inline;
 }
 
 .contact-input {
