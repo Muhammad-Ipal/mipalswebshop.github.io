@@ -533,7 +533,7 @@
   /*********** For Offers **********/
   .offers .container {
     padding: 0 22px;
-    margin-bottom: 5px;
+    margin-bottom: 28px;
   }
 
   .offers .section-header {
@@ -588,7 +588,7 @@
     grid-area: 3 / 1 / 4 / 7;
   }
 
-    .abt-us .text {
+  .abt-us .text {
     line-height: 27px;
     letter-spacing: 0.1px;
     word-spacing: 0.1px;
@@ -596,7 +596,7 @@
 
   .footer-flwme .alamat,
   .txt-cntct {
-    font-size: 16px;
+    font-size: 14.3px;
     margin-bottom: 5px;
   }
 
@@ -610,14 +610,20 @@
     line-height: 25px;
   }
 
+  .contact-input, .message {
+    resize: none;
+    margin: 5px 20px;
+  }
+
+  .offers-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .abt-us,
   .abt-txt {
     margin: 0px;
-  }
-
-  .footer-message {
-    text-align: center;
-    width: 100%;
   }
 
   .bottom-footer p {

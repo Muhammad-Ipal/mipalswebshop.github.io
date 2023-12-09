@@ -414,21 +414,19 @@
 
       <div class="footer-message">
         <h3 class="title-sm">Message</h3>
-        <div class="form-row">
-          <div class="row">
-            <input type="text" class="contact-input" id="nama" placeholder="Nama" />
-            <input type="text" class="contact-input" id="Email" placeholder="Email" />
-          </div>
-
-          <div class="row">
-            <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
-          </div>
-          <div>
-            <a href="#email" class="btn" onclick="clearFields()">Send<i class="bi bi-send"
-                style="margin-left: 5px;"></i></a>
-          </div>
+        <div class="row">
+          <input type="text" class="contact-input" id="nama" placeholder="Nama" />
+          <input type="text" class="contact-input" id="Email" placeholder="Email" />
+        </div>
+        <div class="row">
+          <textarea name="message" class="contact-input textarea" id="message" placeholder="Message"></textarea>
+        </div>
+        <div>
+          <a href="#email" class="btn" onclick="sendMessage()">Send<i class="bi bi-send"
+              style="margin-left: 5px;"></i></a>
         </div>
       </div>
+
     </div>
     <div class="bottom-footer">
       <p class="text">Copyright©2023 All rights reserved | Muhammad Ipal - SMK WIKRAMA BOGOR</p>

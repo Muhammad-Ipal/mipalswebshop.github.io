@@ -152,6 +152,8 @@ img {
   background-color: var(--light-three);
   border-radius: 0 0 20px 20px;
   width: 90%;
+  display: flex;
+  align-items: center;
 }
 
 .nav .container {
@@ -584,6 +586,11 @@ label {
 
 .footer-message .btn:hover {
   background-color: #ff5f5f;
+}
+
+.footer-message .btn:active {
+  background-color: #ff9c9c;
+  box-shadow: 1px 1px 10px 1px #ff4343;
 }
 
 /* Bottom footer */
