@@ -1,0 +1,580 @@
+@media (max-width: 1025px) {
+  /********** For Navbar **********/
+
+  .nav label {
+    display: block;
+  }
+
+  .nav ul li a {
+    font-size: 16px;
+  }
+
+  .nav ul {
+    position: fixed;
+    /* backdrop-filter: blur(5px); */
+    background-color: var(--light-two);
+    /* box-shadow: -1px 0 5px -1px rgba(0, 0, 0, 0.5); */
+    height: 100vh;
+    width: 180px;
+    right: -100%;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.6s;
+    z-index: 1;
+  }
+
+  .nav ul li {
+    margin: 30px 0;
+  }
+
+  .nav ul li a {
+    color: #333;
+  }
+
+  #check:checked ~ ul {
+    right: 0;
+  }
+
+  /********** For Main Content **********/
+  .home .container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main .home div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home figure {
+    height: auto;
+    margin: 40px 0 20px;
+  }
+
+  .home article {
+    height: auto;
+    width: 650px;
+    margin: 0;
+  }
+
+  .home article h3 {
+    margin-top: 20px;
+    word-spacing: 2px;
+    font-size: 42px;
+  }
+
+  /*********** For service *********/
+  .service .container {
+    justify-content: center;
+  }
+
+  .card-srv-wrap {
+    flex-direction: column;
+  }
+
+  .card-srv {
+    width: 100%;
+    height: 160px;
+    padding: 25px 34px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-srv img {
+    margin: 0 1rem 0 0;
+  }
+
+  .card-srv .title-sm {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  /********** For Product **********/
+
+  .product .container {
+    padding: 0 28px;
+  }
+
+  .product .crd-prdc-wrap {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: space-between;
+    background-color: #ffeaea;
+  }
+
+  .crd-prdc {
+    margin: 40px 12px;
+  }
+
+  /********** For offers **********/
+
+  .offers-img img {
+    width: 200px;
+  }
+
+  .offers .hidden-img {
+    display: none;
+  }
+
+  .offers-text .text {
+    font-size: 15px;
+    line-height: 27px;
+  }
+
+  /*********** For Footer **********/
+
+  .footer .container {
+    padding: 64px 90px 20px;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 200fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 64px;
+  }
+
+  .abt-us {
+    grid-area: 1 / 1 / 2 / 6;
+  }
+
+  .footer-links {
+    grid-area: 1 / 6 / 2 / 7;
+  }
+
+  .footer-flwme {
+    grid-area: 2 / 1 / 3 / 4;
+  }
+
+  .footer-message {
+    grid-area: 2 / 4 / 3 / 7;
+  }
+
+  .footer-links {
+    margin-left: 26px;
+  }
+
+  .line {
+    margin: 0 36px;
+  }
+
+  .abt-us p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 34px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+  }
+
+  .contact-input.textarea {
+    padding-bottom: 58px;
+  }
+
+  .bottom-footer {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/************************** For Mini Ipad ************************/
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 6px 11px;
+    font-size: 11px;
+    border: 1.5px solid red;
+  }
+
+  .search-bar input {
+    width: 180px;
+    font-size: 14px;
+  }
+
+  .search-bar {
+    width: 260px;
+  }
+  /******* For Main Content ********/
+
+  .home figure img {
+    width: 200px;
+  }
+
+  .home article {
+    height: auto;
+    width: 540px;
+    margin: 0;
+  }
+
+  .home article h3 {
+    font-size: 29px;
+  }
+
+  /*********** For Service *********/
+
+  .service .container {
+    padding: 0 38px;
+  }
+
+  .service .card-srv {
+    margin: 20px 0;
+  }
+
+  .service .card-srv img {
+    width: 140px;
+  }
+
+  /********** For Product ********/
+
+  .product .crd-prdc-wrap {
+    padding: 32px 0;
+  }
+
+  .product .container .crd-prdc {
+    width: 130px;
+    height: 240px;
+    min-width: 130px;
+    min-height: 240px;
+    border-radius: 5px;
+    margin: 0 14px;
+    overflow: hidden;
+  }
+
+  .crd-prdc img {
+    width: 90px;
+    padding: 10px;
+  }
+
+  .crd-prdc-text {
+    padding: 8px;
+  }
+
+  .crd-prdc-text .prdc-name {
+    font-size: 11px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 5px;
+    white-space: nowrap;
+  }
+
+  .crd-prdc-text .title-sm {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+
+  .crd-prdc-text .diskon {
+    margin-bottom: 4px;
+  }
+
+  .crd-prdc-text .cashback {
+    font-size: 4px;
+    background-color: #ffe1e1;
+    padding: 0.5px 3px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding: 1px 5px;
+    display: block;
+    line-height: 18px;
+  }
+
+  .crd-prdc-text .text {
+    font-size: 9.6px;
+    line-height: 14.2px;
+  }
+
+  .product i {
+    font-size: 12px;
+  }
+
+  /************* For offers **********/
+
+  .offers .container {
+    padding: 0 64px;
+  }
+
+  .offers-wrap {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offers-img img {
+    width: 160px;
+  }
+
+  .offers-text {
+    width: 365px;
+  }
+
+  .offers-text .text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /*********** For Footer **********/
+  .footer .container {
+    padding: 64px 70px 20px;
+  }
+
+  .footer .line {
+    margin: 25px 0;
+  }
+
+  .abt-us p {
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.05px;
+    word-spacing: 0px;
+  }
+
+  .footer-links {
+    margin: 0;
+  }
+
+  .grid-footer {
+    gap: 0 50px;
+  }
+}
+
+/************************** For Handphone ************************/
+
+@media (max-width: 600px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  /*********** For Nav **********/
+
+  .nav .container {
+    padding: 0 38px;
+  }
+
+  .nav {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .logo img {
+    width: 82px;
+  }
+
+  /********** For Main Content ********/
+  .home figure img {
+    width: 180px;
+  }
+
+  .home article {
+    width: 430px;
+  }
+
+  .home article h3 {
+    font-size: 27px;
+  }
+
+  /*********** For Service **********/
+
+  .service .container {
+    padding: 0 24px;
+  }
+
+  .card-srv-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 32px 0;
+  }
+
+  .service .card-srv {
+    width: 222px;
+    height: 270px;
+    padding: 15px 13px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+  }
+
+  .service .card-srv img {
+    width: 90px;
+    margin: 0;
+  }
+
+  .card-srv .title-sm {
+    font-size: 15px;
+    margin: 12px 0;
+  }
+
+  .card-srv .text {
+    font-size: 12.8px;
+  }
+
+  /*********** For Offers **********/
+
+  .offers .container {
+    padding: 0 37px;
+  }
+
+  .offers-wrap {
+    align-content: center;
+  }
+
+  .offers-img img {
+    width: 145px;
+    margin-top: 50px;
+  }
+
+  /********** For Footer ********/
+
+  .footer .container {
+    padding: 40px;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 46px;
+    grid-row-gap: 1rem;
+  }
+
+  .abt-us {
+    grid-area: 1 / 1 / 2 / 6;
+  }
+  .footer-links {
+    grid-area: 1 / 6 / 2 / 7;
+  }
+  .footer-flwme {
+    grid-area: 2 / 1 / 3 / 7;
+  }
+  .footer-message {
+    grid-area: 3 / 1 / 4 / 7;
+  }
+
+  .footer-message,
+  .abt-us,
+  .footer-flwme {
+    text-align: center;
+  }
+
+  .bottom-footer p {
+    text-align: center;
+    padding: 0 12px;
+  }
+}
+/************************** For Mini Handphone ************************/
+
+@media (max-width: 450px) {
+  .main section {
+    margin-bottom: 46px;
+  }
+
+  .nav .container {
+    padding: 0 16px;
+  }
+
+  .search-bar input {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .search-bar {
+    width: 200px;
+    height: 33px;
+  }
+
+  .title {
+    font-size: 21px;
+    margin: 0;
+  }
+
+  .title::before {
+    font-size: 9px;
+  }
+
+  .title::after {
+    height: 2px;
+    margin: 0;
+  }
+
+  /********** For Main Content ********/
+  .home figure img {
+    width: 155px;
+  }
+
+  .home article {
+    width: 310px;
+  }
+
+  .home article h3 {
+    font-size: 23px;
+  }
+
+  /*********** For Offers **********/
+
+  .offers .container {
+    padding: 0 24px;
+  }
+
+  .offers .section-header {
+    margin-bottom: 16px;
+  }
+
+  .offers-text .text {
+    font-size: 12.8px;
+    line-height: 21px;
+  }
+
+  .offers-text .title-sm {
+    font-size: 19px;
+  }
+
+  .hidden-img-mini {
+    display: none;
+  }
+
+  /********** For Footer ********/
+
+  .footer .container {
+    padding: 38px;
+  }
+
+  .abt-txt {
+    overflow: visible;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 0;
+  }
+
+  .abt-us {
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .footer-links {
+    display: none;
+  }
+  .footer-flwme {
+    grid-area: 2 / 1 / 3 / 7;
+  }
+  .footer-message {
+    grid-area: 3 / 1 / 4 / 7;
+  }
+
+  .abt-us .text {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .footer-message {
+    text-align: center;
+    width: 100%;
+  }
+}
