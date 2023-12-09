@@ -610,6 +610,10 @@
     line-height: 25px;
   }
 
+  .footer-message .row {
+  display: inline;
+}
+
   .contact-input,
   .message {
     display: inline;
@@ -630,6 +634,5 @@
   .bottom-footer p {
     text-align: center;
     font-size: 11px;
-    padding: 0 10px;
   }
 }
