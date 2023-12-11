@@ -19,8 +19,6 @@ function performSearch() {
 
   if (targetElement) {
     targetElement.scrollIntoView({ behavior: "smooth" });
-  } else {
-    console.log("ID tidak ditemukan");
   }
 }
 
@@ -34,7 +32,7 @@ function sendMessage() {
     alert(`Hello ${nama}, your message has been sent.`);
     document.getElementById("nama").value = "";
     document.getElementById("Email").value = "";
-    document.getElementById("message").value = "halo";
+    document.getElementById("message").value = "";
 
     console.log("Pesan anda berhasil terkirim :" + message);
   } else {
